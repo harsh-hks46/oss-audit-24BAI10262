@@ -121,10 +121,10 @@ chmod +x *.sh
 ### Step 2: Run scripts
 
 ```bash
-./script1.sh
-./script2.sh
-./script3.sh
-./script4.sh /var/log/dpkg.log
+./script1_system_identity.sh
+./script2_package_inspector.sh
+./script3_disk_auditor.sh
+./script4_log_analyzer.sh /var/log/dpkg.log
 ./script5.sh
 ```
 
@@ -134,11 +134,11 @@ chmod +x *.sh
 
 ```
 Open-Source-Audit-Python/
-├── script1.sh
-├── script2.sh
-├── script3.sh
-├── script4.sh
-├── script5.sh
+├── script1_system_identity.sh
+├── script2_package_inspector.sh
+├── script3_disk_auditor.sh
+├── script4_log_analyzer.sh
+├── script5_manifesto.sh
 ├── README.md
 ```
 
