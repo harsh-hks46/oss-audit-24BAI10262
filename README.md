@@ -134,7 +134,7 @@ chmod +x *.sh
 
 ---
 
-### 🔹 Script 1: System Identity Report (`script1.sh`)
+### 🔹 Script 1: System Identity Report (`script1_system_identity.sh`)
 
 **Description:**
 This script displays basic information about the Linux system. It shows the kernel version, current user, system uptime, date/time, and Linux distribution. It acts like a welcome screen for the system.
@@ -142,8 +142,8 @@ This script displays basic information about the Linux system. It shows the kern
 **Steps to Run:**
 
 ```bash
-chmod +x script1.sh
-./script1.sh
+chmod +x script1_system_identity.sh
+./script1_system_identity.sh
 ```
 
 **Dependencies:**
@@ -153,7 +153,7 @@ chmod +x script1.sh
 
 ---
 
-### 🔹 Script 2: FOSS Package Inspector (`script2.sh`)
+### 🔹 Script 2: FOSS Package Inspector (`script2_package_inspector.sh`)
 
 **Description:**
 This script checks whether Python is installed on the system. If installed, it displays the version of Python and prints a short description using a case statement.
@@ -161,8 +161,8 @@ This script checks whether Python is installed on the system. If installed, it d
 **Steps to Run:**
 
 ```bash
-chmod +x script2.sh
-./script2.sh
+chmod +x script2_package_inspector.sh
+./script2_package_inspector.sh
 ```
 
 **Dependencies:**
@@ -173,7 +173,7 @@ chmod +x script2.sh
 
 ---
 
-### 🔹 Script 3: Disk and Permission Auditor (`script3.sh`)
+### 🔹 Script 3: Disk and Permission Auditor (`script3_disk_auditor.sh`)
 
 **Description:**
 This script scans important system directories and displays their permissions, owner, and disk usage. It helps understand how Linux manages files and storage.
@@ -181,8 +181,8 @@ This script scans important system directories and displays their permissions, o
 **Steps to Run:**
 
 ```bash
-chmod +x script3.sh
-./script3.sh
+chmod +x script3_disk_auditor.sh
+./script3_disk_auditor.sh
 ```
 
 **Dependencies:**
@@ -192,7 +192,7 @@ chmod +x script3.sh
 
 ---
 
-### 🔹 Script 4: Log File Analyzer (`script4.sh`)
+### 🔹 Script 4: Log File Analyzer (`script4_log_analyzer.sh`)
 
 **Description:**
 This script analyzes a log file and counts how many times a specific keyword (default: "error") appears. It also shows the last few matching lines.
@@ -200,8 +200,8 @@ This script analyzes a log file and counts how many times a specific keyword (de
 **Steps to Run:**
 
 ```bash
-chmod +x script4.sh
-./script4.sh /var/log/dpkg.log
+chmod +x script4_log_analyzer.sh
+./script4_log_analyzer.sh/var/log/dpkg.log
 ```
 
 **Dependencies:**
@@ -212,7 +212,7 @@ chmod +x script4.sh
 
 ---
 
-### 🔹 Script 5: Open Source Manifesto Generator (`script5.sh`)
+### 🔹 Script 5: Open Source Manifesto Generator (`script5_manifesto.sh`)
 
 **Description:**
 This script interacts with the user by asking questions and generates a personalized open-source philosophy statement. The output is saved to a text file.
@@ -220,8 +220,8 @@ This script interacts with the user by asking questions and generates a personal
 **Steps to Run:**
 
 ```bash
-chmod +x script5.sh
-./script5.sh
+chmod +x script5_manifesto.sh
+./script5_manifesto.sh
 ```
 
 **Dependencies:**
