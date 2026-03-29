@@ -130,6 +130,107 @@ chmod +x *.sh
 
 ---
 
+## 🖥️ Detailed Script Documentation
+
+---
+
+### 🔹 Script 1: System Identity Report (`script1.sh`)
+
+**Description:**
+This script displays basic information about the Linux system. It shows the kernel version, current user, system uptime, date/time, and Linux distribution. It acts like a welcome screen for the system.
+
+**Steps to Run:**
+
+```bash
+chmod +x script1.sh
+./script1.sh
+```
+
+**Dependencies:**
+
+* Bash shell
+* Commands used: `uname`, `whoami`, `uptime`, `date`, `lsb_release`
+
+---
+
+### 🔹 Script 2: FOSS Package Inspector (`script2.sh`)
+
+**Description:**
+This script checks whether Python is installed on the system. If installed, it displays the version of Python and prints a short description using a case statement.
+
+**Steps to Run:**
+
+```bash
+chmod +x script2.sh
+./script2.sh
+```
+
+**Dependencies:**
+
+* Bash shell
+* Python installed (`python3`)
+* Commands used: `dpkg`, `grep`, `python3`
+
+---
+
+### 🔹 Script 3: Disk and Permission Auditor (`script3.sh`)
+
+**Description:**
+This script scans important system directories and displays their permissions, owner, and disk usage. It helps understand how Linux manages files and storage.
+
+**Steps to Run:**
+
+```bash
+chmod +x script3.sh
+./script3.sh
+```
+
+**Dependencies:**
+
+* Bash shell
+* Commands used: `ls`, `du`, `awk`, `cut`
+
+---
+
+### 🔹 Script 4: Log File Analyzer (`script4.sh`)
+
+**Description:**
+This script analyzes a log file and counts how many times a specific keyword (default: "error") appears. It also shows the last few matching lines.
+
+**Steps to Run:**
+
+```bash
+chmod +x script4.sh
+./script4.sh /var/log/dpkg.log
+```
+
+**Dependencies:**
+
+* Bash shell
+* Access to log files
+* Commands used: `grep`, `tail`
+
+---
+
+### 🔹 Script 5: Open Source Manifesto Generator (`script5.sh`)
+
+**Description:**
+This script interacts with the user by asking questions and generates a personalized open-source philosophy statement. The output is saved to a text file.
+
+**Steps to Run:**
+
+```bash
+chmod +x script5.sh
+./script5.sh
+```
+
+**Dependencies:**
+
+* Bash shell
+* Commands used: `read`, `date`, `echo`, `cat`
+
+---
+
 ## 📂 Project Structure
 
 ```
