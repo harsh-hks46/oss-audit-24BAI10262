@@ -125,7 +125,7 @@ chmod +x *.sh
 ./script2_package_inspector.sh
 ./script3_disk_auditor.sh
 ./script4_log_analyzer.sh /var/log/dpkg.log
-./script5.sh
+./script5_manifesto.sh
 ```
 
 ---
